@@ -1,5 +1,8 @@
 body{
 	margin: 0;
+	font-size: 25px;
+	line-height: 30px;
+	font-family: Bradley Hand, cursive;
 }
 
 header{
@@ -10,11 +13,50 @@ header{
 }
 
 header h1{
-	color: brown;
-	font-family: Helvetica, Arial, sans-serif;
+	color: black;
+	font-family: Bradley Hand, cursive;
+	font-size: 50px;
 }
 
 header img{
 	border-radius: 150px;
 	border: 20px solid black;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 35px;
+	color: black;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: darkred;
+}
+a:hover{
+	color: #483a94;
+}
+
+footer{
+	background-color: #FF8000;
+	text-align: center;
+	padding: 50px;
+}
+footer p{
+	margin: 0;
+}
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+	font-size: 20px;
 }
